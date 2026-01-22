@@ -1,0 +1,9 @@
+{
+  "name": "superpowers",
+  "short_description": "Core skills library for Claude Code",
+  "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques. Includes 14 specialized skills for brainstorming, planning, debugging, testing, and code review.",
+  "author": "Your Name",
+  "repository": "https://github.com/your-username/superpowers",
+  "homepage": "https://github.com/your-username/superpowers",
+  "keywords": ["skills", "tdd", "debugging", "collaboration"]
+}
