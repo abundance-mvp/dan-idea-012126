@@ -1,0 +1,22 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": ".*",
+        "command": ".claude/hooks/context-loader.sh"
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "command": ".claude/hooks/spec-gate.sh"
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "command": ".claude/hooks/update-status.sh"
+      }
+    ]
+  }
+}
