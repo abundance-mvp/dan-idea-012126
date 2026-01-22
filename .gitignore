@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-*
+
+# Build artifacts
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# Source material (not part of final repo)
+extracted/
+skill-zips/
+superpowers-main.zip
