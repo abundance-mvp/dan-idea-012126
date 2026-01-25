@@ -1,13 +1,12 @@
-# Superpowers Skills Library
+# Soul
 
-A spec-driven development workflow system for Claude Code with 18 skills, smart context management, and automated workflow guidance.
+A project built with the Superpowers workflow system for spec-driven development.
 
-## Features
+## Getting Started
 
-- **Spec-Driven Development**: Every feature starts with a specification
-- **Smart Context Loading**: Hooks automatically load relevant docs based on your prompts
-- **Workflow Guidance**: Skills guide you through each development stage
-- **Document Templates**: Ready-to-use templates for specs, designs, plans, and more
+1. Run `/status` to see workflow status
+2. Run `/brainstorm` to start ideation
+3. Fill in `docs/business/vision.md` with your vision
 
 ## Quick Start
 
@@ -36,32 +35,16 @@ IDEATION → DESIGN → SPECIFICATION → PLANNING → IMPLEMENTATION → REVIEW
 
 See [docs/guides/workflow-guide.md](docs/guides/workflow-guide.md) for complete documentation.
 
-## Skills
+## Documentation
 
-### Workflow Skills (New)
-| Skill | Description |
-|-------|-------------|
-| workflow-navigator | Shows status, suggests next steps |
-| writing-specs | Guide spec creation |
-| writing-schemas | Guide schema creation |
-| project-scaffolding | Initialize new projects |
-
-### Core Skills (from Superpowers)
-| Skill | Description |
-|-------|-------------|
-| brainstorming | Ideation and design |
-| writing-plans | Create implementation plans |
-| executing-plans | Execute plans with checkpoints |
-| subagent-driven-development | Execute with fresh subagents |
-| test-driven-development | TDD discipline |
-| systematic-debugging | Methodical debugging |
-| requesting-code-review | Request reviews |
-| receiving-code-review | Handle feedback |
-| finishing-a-development-branch | Complete work |
-| verification-before-completion | Verify before claiming done |
-| dispatching-parallel-agents | Coordinate parallel work |
-| using-git-worktrees | Isolated workspaces |
-| using-superpowers | Introduction to skills |
+| Directory | Purpose |
+|-----------|---------|
+| `docs/business/` | Business context and vision |
+| `docs/specs/` | Feature specifications |
+| `docs/schemas/` | Data models and API schemas |
+| `docs/plans/` | Implementation plans |
+| `docs/decisions/` | Architecture Decision Records |
+| `docs/guides/` | How-to guides |
 
 ## Commands
 
@@ -72,21 +55,11 @@ See [docs/guides/workflow-guide.md](docs/guides/workflow-guide.md) for complete 
 | `/new-spec [name]` | Create specification |
 | `/spec [id]` | Load spec into context |
 | `/schema [type]` | Load schemas |
-| `/new-project` | Scaffold new project |
-
-## Documentation
-
-- [Getting Started](docs/guides/getting-started.md)
-- [Workflow Guide](docs/guides/workflow-guide.md)
-- [Contributing](docs/guides/contributing.md)
-
-## Installation
-
-This repository can be used as a Claude Code plugin:
-
-1. Clone this repository
-2. Install as a local plugin in Claude Code
+| `/write-plan` | Create implementation plan |
+| `/execute-plan` | Start implementation |
+| `/review` | Request code review |
+| `/finish` | Complete current work |
 
 ## License
 
-MIT
+[Add your license here]

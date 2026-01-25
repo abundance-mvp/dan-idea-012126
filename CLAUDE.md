@@ -1,8 +1,8 @@
-# Project: Superpowers Workflow System
+# Project: Soul
 
 ## Overview
 
-A spec-driven development workflow system for Claude Code that guides projects from idea to implementation with smart context management.
+[Project description - fill this in]
 
 ## Documentation
 
@@ -15,9 +15,9 @@ A spec-driven development workflow system for Claude Code that guides projects f
 
 ## Active Work
 
-- Current stage: IMPLEMENTATION
+- Current stage: IDEATION
 - Active spec: None
-- Active plan: docs/plans/2026-01-22-superpowers-workflow-implementation.md
+- Active plan: None
 
 ## Workflow Commands
 
@@ -33,9 +33,7 @@ A spec-driven development workflow system for Claude Code that guides projects f
 
 ## Tech Stack
 
-- Markdown for documentation and skills
-- Bash for hooks
-- YAML frontmatter for metadata
+[Fill in your tech stack]
 
 ## Key Files
 
